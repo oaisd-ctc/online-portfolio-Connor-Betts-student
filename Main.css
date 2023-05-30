@@ -31,6 +31,18 @@ div.Contact {
     font-size: 20px;
 }
 
+div.Experience {
+    border-style: solid;
+    border-color: purple;
+    border-width: 5px;
+}
+
+div.Certificates {
+    border-style: solid;
+    border-color: purple;
+    border-width: 5px;
+}
+
 ul.lists {
     display: inline-block;
     text-align: left;
