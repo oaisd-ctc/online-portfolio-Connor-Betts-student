@@ -22,12 +22,15 @@ div.About {
     border-style: solid;
     border-color: purple;
     border-width: 5px;
+    border-top-width: 2.5px;
+    border-bottom-width: 2.5px;
 }
 
 div.Contact {
     border-style: solid;
     border-color: purple;
     border-width: 5px;
+    border-bottom-width: 2.5px;
     font-size: 20px;
 }
 
@@ -35,12 +38,15 @@ div.Experience {
     border-style: solid;
     border-color: purple;
     border-width: 5px;
+    border-top-width: 2.5px;
+    border-bottom-width: 2.5px;
 }
 
 div.Certificates {
     border-style: solid;
     border-color: purple;
     border-width: 5px;
+    border-top-width: 2.5px;
 }
 
 ul.lists {
