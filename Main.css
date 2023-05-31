@@ -92,10 +92,10 @@ nav li a {
 }
 
 nav li a:hover {
-    color: green;
+    color: purple;
 }
 
 .active {
-    color: green;
+    color: purple;
     font-weight: 600;
 }
