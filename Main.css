@@ -12,6 +12,7 @@ div.About {
     border-width: 5px;
     border-top-width: 2.5px;
     border-bottom-width: 2.5px;
+    margin-left: 160px;
 }
 
 div.Contact {
@@ -20,6 +21,7 @@ div.Contact {
     border-width: 5px;
     border-bottom-width: 2.5px;
     font-size: 20px;
+    margin-left: 160px;
 }
 
 div.Experience {
@@ -28,6 +30,7 @@ div.Experience {
     border-width: 5px;
     border-top-width: 2.5px;
     border-bottom-width: 2.5px;
+    margin-left: 160px;
 }
 
 div.Certificates {
@@ -35,6 +38,7 @@ div.Certificates {
     border-color: purple;
     border-width: 5px;
     border-top-width: 2.5px;
+    margin-left: 160px;
 }
 
 ul.lists {
@@ -46,4 +50,52 @@ ul.lists {
     border-style: solid;
     border-color: purple;
     border-width: 5px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.side-bar {
+    border-style: solid;
+    border-color: purple;
+    border-width: 5px;
+    border-right-width: 0px;
+    width: 160px;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 0.6rem 0.3rem;
+    font-weight: 400;
+    transition: all ease-out 250ms;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+nav li a:hover {
+    color: green;
+}
+
+.active {
+    color: green;
+    font-weight: 600;
 }
